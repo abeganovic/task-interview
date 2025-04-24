@@ -1,0 +1,42 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore Docker-related files
+Dockerfile*
+*.dockerignore
+
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore compiled files
+*.o
+*.so
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore any other unnecessary files
+*.swp
+*.bak
+*.old
+
+# Ignore Terraform files
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+
+# Ignore any other files that should not be included in the Docker image
+node_modules/
+dist/
+build/
+
+# Ignore IDE specific files
+.idea/
+.vscode/

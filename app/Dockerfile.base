@@ -1,0 +1,10 @@
+FROM python:latest
+
+RUN apt-get update && apt-get install -y \
+    gcc \
+    make \
+    wget \
+    nano \
+    netcat-traditional \
+    telnet \
+    ftp
