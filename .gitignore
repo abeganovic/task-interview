@@ -1,0 +1,16 @@
+# Ignore environment files
+.env
+*.env
+
+# Ignore Terraform files
+terraform/**/*.tfstate
+terraform/**/*.tfstate.backup
+terraform/**/*.terraform
+terraform/**/*.terraform.lock.hcl
+terraform/.terraform/
+terraform/*/*.terraform.lock.hcl
+
+
+# Ignore IDE specific files
+.idea/
+.vscode/
