@@ -1,8 +1,8 @@
 # Interview task assignment
 
-Version: 1.0 
-Author: Alma Beganovic - Kazija
-Application is available via the following url http://alma-interview-prod-912370085.eu-central-1.elb.amazonaws.com/ (ALB Endpoint)
+Version: 1.0  
+Author: Alma Beganovic - Kazija  
+Application is available via the following url http://alma-interview-prod-912370085.eu-central-1.elb.amazonaws.com/ (ALB Endpoint)  
 
 This is a monorepo used for the interview task assigmed.
 
