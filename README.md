@@ -1,3 +1,5 @@
+[![CI/CD Deployment Status](https://github.com/abeganovic/task-interview/actions/workflows/prod-app-deployment.yaml/badge.svg)](https://github.com/abeganovic/task-interview/actions/workflows/prod-app-deployment.yaml)  
+
 # Interview task assignment
 
 Version: 1.0  
