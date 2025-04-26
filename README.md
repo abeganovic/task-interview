@@ -52,3 +52,28 @@ For more informations about pre-commit-terraform check following [link](https://
 - implement Github OCID for github actions (currently i am using github secrets to store aws keys which is bad)
 - add https lisner and SSL from ACM
 - add dns record in route 53
+<!-- BEGIN_TF_DOCS -->
+## Requirements
+
+No requirements.
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
+<!-- END_TF_DOCS -->
