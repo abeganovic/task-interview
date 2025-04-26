@@ -65,3 +65,29 @@ To ensure proper formating of our Terrafrom code we are using `pre-commit` hooks
 - `terraform_docs`  
 
 Pre commits are also executed using github actions. 
+
+<!-- BEGIN_TF_DOCS -->
+## Requirements
+
+No requirements.
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
+<!-- END_TF_DOCS -->
