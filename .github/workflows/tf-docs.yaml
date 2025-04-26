@@ -1,4 +1,4 @@
-name: Generate Terraform docs
+name: Generate Terraform Docs
 on:
   - pull_request
 jobs:
