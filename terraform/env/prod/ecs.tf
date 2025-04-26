@@ -13,7 +13,7 @@ locals {
 ## Cluster
 module "app-prod-ecs" {
   source  = "terraform-aws-modules/ecs/aws"
-  version = "5.8.0"
+  version = "5.12.1"
 
   cluster_name = local.app_name
 
@@ -33,7 +33,7 @@ module "app-prod-ecs" {
 ## Service
 module "app-prod-ecs_service" {
   source  = "terraform-aws-modules/ecs/aws//modules/service"
-  version = "5.8.0"
+  version = "5.12.1"
 
   name        = local.app_service_name
   cluster_arn = module.app-prod-ecs.cluster_arn
