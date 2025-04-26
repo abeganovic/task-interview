@@ -3,12 +3,10 @@ variable "secret_name" {
   description = "The name of the secret to create"
 }
 
-
 variable "secret_description" {
   type        = string
   description = "The description of the secret to create"
 }
-
 
 variable "recovery_window_in_days" {
   type        = number
