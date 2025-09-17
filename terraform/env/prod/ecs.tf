@@ -123,7 +123,7 @@ module "app-prod-ecs_service" {
 ## ALB
 module "app-prod-alb" {
   source  = "terraform-aws-modules/alb/aws"
-  version = "~> 9.0"
+  version = "~> 10.0"
 
   name = local.app_name
 
